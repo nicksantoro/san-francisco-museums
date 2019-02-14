@@ -1,0 +1,23 @@
+Google Maps, Google Places, Google Routes APIs
+
+Maps: Deals with maps
+Places: Deals with "places" (businesses, institutions, etc...)
+Routes: Deals with "routes" (coordinates, angles, etc...)
+
+Objective:
+Make a website that's a directory of museums in San Francisco.
+Homepage (index.html):
+-paginated (1 row, 3 per row) list of "blocks" representing museums
+  -NOTE: Each place should come from the Places database (NOT hardcoded)
+  -each block should have an image provided by Places
+  -each block should have some other info (name, address, etc...)
+  -clicking on a block should navigate to the "museum" page (with GET data in a query string)
+
+Museum Page (museum.html):
+-more info about the specific museum
+
+TODO:
+-Research Maps, Places, and Routes
+  -Find example code using all 3 (in client-side JavaScript)
+  -Find out how to list places of a certain type in a certain area with Places
+-Start on the project
